@@ -105,5 +105,5 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 ![Zona de estudio]( pantallazo10.png "zona_de_estudio")
 
-
+![Zona de estudio]( pantallazo11.png "zona_de_estudio")
 
