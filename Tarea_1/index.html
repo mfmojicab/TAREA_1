@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 1619px;
+            height: 866px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/CambiodelaPrecipitacin_1.js"></script>
+        <script src="data/Catalgog_Nal_Estaciones_2.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[3.5369944118240992,-76.5489547503808],[7.238272871484953,-69.62190929983504]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            opacity: 1.0,
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OSMStandard_0;
+        map.addLayer(layer_OSMStandard_0);
+        function pop_CambiodelaPrecipitacin_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FID_Region'] !== null ? Autolinker.link(feature.properties['FID_Region'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NOM_DEPART'] !== null ? Autolinker.link(feature.properties['NOM_DEPART'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FID_ECC_PR'] !== null ? Autolinker.link(feature.properties['FID_ECC_PR'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Id'] !== null ? Autolinker.link(feature.properties['Id'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['gridcode'] !== null ? Autolinker.link(feature.properties['gridcode'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['RANGO'] !== null ? Autolinker.link(feature.properties['RANGO'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_CambiodelaPrecipitacin_1_0(feature) {
+            switch(String(feature.properties['RANGO'])) {
+                case '11% a 20%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(215,25,28,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '-19% a -10%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(232,91,58,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '21% a 30%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(249,158,89,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '-29% a -20%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(254,201,129,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '31% a 40%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,237,171,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '-39% a -30%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(236,247,173,1.0)',
+                interactive: true,
+            }
+                    break;
+                case '-9% a 10%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(196,230,135,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Mayor a 40%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(151,210,101,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Menor a -40%':
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(88,180,83,1.0)',
+                interactive: true,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_CambiodelaPrecipitacin_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(26,150,65,1.0)',
+                interactive: true,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_CambiodelaPrecipitacin_1');
+        map.getPane('pane_CambiodelaPrecipitacin_1').style.zIndex = 401;
+        map.getPane('pane_CambiodelaPrecipitacin_1').style['mix-blend-mode'] = 'normal';
+        var layer_CambiodelaPrecipitacin_1 = new L.geoJson(json_CambiodelaPrecipitacin_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_CambiodelaPrecipitacin_1',
+            layerName: 'layer_CambiodelaPrecipitacin_1',
+            pane: 'pane_CambiodelaPrecipitacin_1',
+            onEachFeature: pop_CambiodelaPrecipitacin_1,
+            style: style_CambiodelaPrecipitacin_1_0,
+        });
+        bounds_group.addLayer(layer_CambiodelaPrecipitacin_1);
+        map.addLayer(layer_CambiodelaPrecipitacin_1);
+        function pop_Catalgog_Nal_Estaciones_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['AREA_OPER_'] !== null ? Autolinker.link(feature.properties['AREA_OPER_'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['CODIGO_CAT'] !== null ? Autolinker.link(feature.properties['CODIGO_CAT'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NOMBRE'] !== null ? Autolinker.link(feature.properties['NOMBRE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['TIPO'] !== null ? Autolinker.link(feature.properties['TIPO'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['CLASE'] !== null ? Autolinker.link(feature.properties['CLASE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['CATEG_'] !== null ? Autolinker.link(feature.properties['CATEG_'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ESTADO'] !== null ? Autolinker.link(feature.properties['ESTADO'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FGDA'] !== null ? Autolinker.link(feature.properties['FGDA'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['CORRIENTE'] !== null ? Autolinker.link(feature.properties['CORRIENTE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['DEPTO'] !== null ? Autolinker.link(feature.properties['DEPTO'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['MPIO'] !== null ? Autolinker.link(feature.properties['MPIO'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['lagr'] !== null ? Autolinker.link(feature.properties['lagr'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['lami'] !== null ? Autolinker.link(feature.properties['lami'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['lase'] !== null ? Autolinker.link(feature.properties['lase'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['laca'] !== null ? Autolinker.link(feature.properties['laca'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LATITUD'] !== null ? Autolinker.link(feature.properties['LATITUD'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['loca'] !== null ? Autolinker.link(feature.properties['loca'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LONGITUD'] !== null ? Autolinker.link(feature.properties['LONGITUD'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ALTITUD'] !== null ? Autolinker.link(feature.properties['ALTITUD'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FECHA_INST'] !== null ? Autolinker.link(feature.properties['FECHA_INST'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Catalgog_Nal_Estaciones_2_0() {
+            return {
+                pane: 'pane_Catalgog_Nal_Estaciones_2',
+                radius: 3.599999999999997,
+                opacity: 1,
+                color: 'rgba(50,87,128,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(72,123,182,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Catalgog_Nal_Estaciones_2');
+        map.getPane('pane_Catalgog_Nal_Estaciones_2').style.zIndex = 402;
+        map.getPane('pane_Catalgog_Nal_Estaciones_2').style['mix-blend-mode'] = 'normal';
+        var layer_Catalgog_Nal_Estaciones_2 = new L.geoJson(json_Catalgog_Nal_Estaciones_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Catalgog_Nal_Estaciones_2',
+            layerName: 'layer_Catalgog_Nal_Estaciones_2',
+            pane: 'pane_Catalgog_Nal_Estaciones_2',
+            onEachFeature: pop_Catalgog_Nal_Estaciones_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Catalgog_Nal_Estaciones_2_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Catalgog_Nal_Estaciones_2);
+        map.addLayer(layer_Catalgog_Nal_Estaciones_2);
+        setBounds();
+        </script>
+    </body>
+</html>
