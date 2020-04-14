@@ -108,3 +108,7 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 ![Zona de estudio]( pantallazo11.png "zona_de_estudio")
 
 ![Zona de estudio]( pantallazo12.png "zona_de_estudio")
+
+![Zona de estudio]( pantallazo14.png "qgis")
+
+**7. Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas: Qgiscloud , leaflet, QGIS2Web , Github Pages, kepler.gl, flourish, etc.**
