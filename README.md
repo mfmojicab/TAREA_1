@@ -28,6 +28,7 @@ Los datos geográficos ayudan a resolverlo debido que permite tener soporte cart
 
 **3. Descripción de la solución propuesta. **
 
+
 **4. Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar. **
 
 • **Escenario de la precipitación para Colombia. 
@@ -66,6 +67,8 @@ El Mapa de Precipitación Mensual está clasificada en 10 rangos significativos 
 El área de estudio es la Región Andina (Antioquia,Boyacá,Caldas,Cundinamarca,Risaralda,Quindío,Tolima,Huila,Norte de Santander,Santander)
 
 Inicialmente se realizó la selección de la zona de estudio
+
+![Región_Andina]( pantallazo1.png "Región_Andina")
 
 ![Región_Andina]( Región_Andina.png "Región_Andina")
 
