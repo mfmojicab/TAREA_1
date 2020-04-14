@@ -86,6 +86,15 @@ El área de estudio es la Región Andina (Antioquia,Boyacá,Caldas,Cundinamarca,
 
 ![Estaciones_meteorologicas]( pantallazo5.png "intersect")
 
+• Esta capa cuenta con registros 
+
+![Estaciones_meteorologicas]( pantallazo7.png "registros estaciones")
+
+Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de estudio, po lo cual se eliminarán mediante un clip. 
+
+
+
+
 
 
 
