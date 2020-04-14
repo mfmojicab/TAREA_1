@@ -124,6 +124,10 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 ![Zona de estudio]( pantallazo16.png " exportar mapa web")
 
+**8.Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/**
+
+![Zona de estudio]( pantallazo17.png " Github")
+
 **9.Urls de los mapas publicados en la web**
 
 https://ximenac1490.github.io/TAREA_1/qgis/index.html#8/5.390/-73.085
