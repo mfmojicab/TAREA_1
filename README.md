@@ -101,7 +101,9 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 ![Estaciones_meteorologicas]( pantallazo9.png "estaciones_zona_de_estudio")
 
+**6.Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)** 
 
+![Zona de estudio]( pantallazo10.png "zona_de_estudio")
 
 
 
