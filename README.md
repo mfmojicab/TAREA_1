@@ -111,4 +111,20 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 **7. Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas: Qgiscloud , leaflet, QGIS2Web , Github Pages, kepler.gl, flourish, etc.**
 
+•Mediante la herramienta QGis2Web se procede a generar los mapas
+•Posteriormente en la pestaña WEB, en la opción qgis2web hacemos clic en Create Web Map
+
 ![Zona de estudio]( pantallazo14.png "qgis")
+
+En la ventana que se despliega de Create Web Map, se selecciona la opción leaflet, donde se configuran las propiedades del mapa
+
+![Zona de estudio]( pantallazo15.png "mapa web")
+
+
+**9.Urls de los mapas publicados en la web**
+
+https://ximenac1490.github.io/TAREA_1/qgis/index.html#8/5.390/-73.085
+
+
+**10. Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio**
+
