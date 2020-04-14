@@ -28,6 +28,9 @@ Los datos geográficos ayudan a resolverlo debido que permite tener soporte cart
 
 **3. Descripción de la solución propuesta.**
 
+Se plantea recopilar información de las diferentes plataformas como el Ideam, Igac y Siac para cruzarlos y validar el cambio de porcentaje que se ha presentado en la preciptación para establecer los difernetes rangos. 
+
+
 **4. Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.**
 
 **• Escenario de la precipitación para Colombia.**
@@ -103,7 +106,11 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 **6.Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)** 
 
+Inicialmente se realizó una inytersección entre las capas de departamentos y el escenario de precipitación en el software Arcgis, despúes se cargo a qgis. 
+
 ![Zona de estudio]( pantallazo10.png "zona_de_estudio")
+
+Se asgignó la simbología para el porcentaje (%) de los rangos de precipitación. 
 
 ![Zona de estudio]( pantallazo11.png "zona_de_estudio")
 
@@ -135,3 +142,8 @@ https://ximenac1490.github.io/TAREA_1/qgis/index.html#8/5.390/-73.085
 
 **10. Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio**
 
+Es importante contar con información de capas y shapefiles que se encuentran disponibles en los portales de datos abiertos, ya que permite realizar análisis con soportes cartográficos y brindar un ainteracción espacial de los datos. 
+
+Ventajas y desventajas 
+
+se presentó dificultad a la hora de enlazar la carpeta que genera qgis con github. 
