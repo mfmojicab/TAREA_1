@@ -78,6 +78,10 @@ El área de estudio es la Región Andina (Antioquia,Boyacá,Caldas,Cundinamarca,
 
 ![EscenarioPreciptación]( pantalazo3.png "ECC")
 
+• A continuación se realiza una intersección entre el escenario de precipitación y la zona de estudio 
+
+![Intersect]( pantallazo4.png "intersect")
+
 
 
 
