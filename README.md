@@ -70,6 +70,10 @@ Inicialmente se realizó la selección de la zona de estudio
 
 ![Región_Andina]( pantallazo1.png "Región_Andina")
 
+Se procede a exportar la selección de la zona de estudio
+
+![Región_Andina]( pantallazo2.png "Región_Andina")
+
 ![Región_Andina]( Región_Andina.png "Región_Andina")
 
 
