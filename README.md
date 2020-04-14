@@ -12,9 +12,9 @@
        * Cada item tiene un valor de 1 punto si está completo y correcto.
        * En caso de estar incompleto o incorrecto se otorgará 0 puntos.
 
-## Items
+## Items 
 
-**1. Cuál es el problema a tratar? ** 
+**1. Cuál es el problema a tratar?**
 
 Colombia es un país con una alta vulnerabilidad al cambio climático, por sus características físicas, geográficas, económicas, sociales y de biodiversidad, lo que implica que para el país, es de vital importancia generar la capacidad de entender las consecuencias que denotan los cambios en el clima, evaluando las amenazas sobre las comunidades vulnerables, previniendo los impactos sobre los territorios, ecosistemas y economías, moderando los daños potenciales, tomando ventaja de las oportunidades y enfrentando las consecuencias de un fenómeno como el cambio climático y sus impactos para el país (Minambiente, 2017). 
 
@@ -22,16 +22,15 @@ El clima tiene efectos en las actividades económicas de la población, especial
 
 Las lluvias intensas, así como la ausencia absoluta de ellas, afectan a cantidades incalculables de personas: desafían a las economías, interrumpen la cadena de producción de alimentos, crean incertidumbre y generan migraciones. De esta manera, los factores que propician niveles excepcionales de inundaciones o sequías en ciertas zonas del mundo.La información relacionada con el cambio climático es de vital importancia para la toma de decisiones. 
 
-**2. Por qué los datos geográficos ayudan a resolverlo? **  
+**2. Por qué los datos geográficos ayudan a resolverlo?**
 
 Los datos geográficos ayudan a resolverlo debido que permite tener soporte cartográfico para los análisis territoriales e información a nivel departamental y nacional. Así mismo la información de los escenarios de cambio climático y las características básicas del territorio permiten visualizar las tendencias en precipitación y temperatura, así como posibles afectaciones sobre: infraestructuras, parques, equipamientos colectivos, cultivos, ecosistemas estratégicos. 
 
-**3. Descripción de la solución propuesta. **
+**3. Descripción de la solución propuesta.**
 
+**4. Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.**
 
-**4. Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar. **
-
-• **Escenario de la precipitación para Colombia. 
+**• Escenario de la precipitación para Colombia.**
 
 **Información del proveedor:** El Sistema de Información Ambiental de Colombia (SIAC) “Es el conjunto integrado de actores, políticas, procesos, y tecnologías involucrados en la gestión de información ambiental del país, para facilitar la generación de conocimiento, la toma de decisiones, la educación y la participación social para el desarrollo sostenible”.
 
