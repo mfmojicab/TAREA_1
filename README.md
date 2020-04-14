@@ -66,15 +66,19 @@ El Mapa de Precipitación Mensual está clasificada en 10 rangos significativos 
 **5.Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)**
 El área de estudio es la Región Andina (Antioquia,Boyacá,Caldas,Cundinamarca,Risaralda,Quindío,Tolima,Huila,Norte de Santander,Santander)
 
-Inicialmente se realizó la selección de la zona de estudio
+• Inicialmente se realizó la selección de la zona de estudio
 
 ![Región_Andina]( pantallazo1.png "Región_Andina")
 
-Se procede a exportar la selección de la zona de estudio
+• Se procede a exportar la selección de la zona de estudio
 
 ![Región_Andina]( pantallazo2.png "Región_Andina")
 
-![Región_Andina]( Región_Andina.png "Región_Andina")
+• Escenario de Precipitación 
+
+![EscenarioPreciptación]( pantalazo3.png "ECC")
+
+
 
 
 
