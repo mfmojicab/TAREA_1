@@ -116,10 +116,13 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 ![Zona de estudio]( pantallazo14.png "qgis")
 
-En la ventana que se despliega de Create Web Map, se selecciona la opción leaflet, donde se configuran las propiedades del mapa
+•En la ventana que se despliega de Create Web Map, se selecciona la opción leaflet, donde se configuran las propiedades del mapa
 
 ![Zona de estudio]( pantallazo15.png "mapa web")
 
+• Seguido hacemos clic en el botón exportar 
+
+![Zona de estudio]( pantallazo16.png " exportar mapa web")
 
 **9.Urls de los mapas publicados en la web**
 
