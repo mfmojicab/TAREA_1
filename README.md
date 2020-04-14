@@ -96,7 +96,7 @@ Se observa que la algunas  estaciones meteorológicas sobresalen de la zona de e
 
 ![Estaciones_meteorologicas]( clipok.png "clip estaciones_zona_de_estudio")
 
-
+![Estaciones_meteorologicas]( pantallazo8.png "clip estaciones_zona_de_estudio")
 
 
 
