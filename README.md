@@ -18,7 +18,7 @@
 
 Colombia es un país con una alta vulnerabilidad al cambio climático, por sus características físicas, geográficas, económicas, sociales y de biodiversidad, lo que implica que para el país, es de vital importancia generar la capacidad de entender las consecuencias que denotan los cambios en el clima, evaluando las amenazas sobre las comunidades vulnerables, previniendo los impactos sobre los territorios, ecosistemas y economías, moderando los daños potenciales, tomando ventaja de las oportunidades y enfrentando las consecuencias de un fenómeno como el cambio climático y sus impactos para el país (Minambiente, 2017). 
 
-El clima tiene efectos en las actividades económicas de la población, especialmente aquellas que dependen directamente de la disponibilidad y calidad del agua, del suelo y de la biodiversidad. De igual forma, las manifestaciones del clima, y particularmente de cambio climático, pueden tener impactos en la salud e integridad de la población. 
+El clima tiene efectos en las actividades económicas de la población, especialmente aquellas que dependen directamente de la disponibilidad y calidad del agua, del suelo y de la biodiversidad. De igual forma, las manifestaciones del clima, y particularmente de cambio climáticoghg, pueden tener impactos en la salud e integridad de la población. 
 
 Las lluvias intensas, así como la ausencia absoluta de ellas, afectan a cantidades incalculables de personas: desafían a las economías, interrumpen la cadena de producción de alimentos, crean incertidumbre y generan migraciones. De esta manera, los factores que propician niveles excepcionales de inundaciones o sequías en ciertas zonas del mundo.La información relacionada con el cambio climático es de vital importancia para la toma de decisiones. 
 
